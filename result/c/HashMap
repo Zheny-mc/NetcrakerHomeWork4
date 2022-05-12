@@ -1,0 +1,111 @@
+C:\Users\Evgeny\.jdks\corretto-11.0.14.1\bin\java.exe -Dvisualvm.id=93507165688600 "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\lib\idea_rt.jar=59134:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\bin" -Dfile.encoding=UTF-8 -classpath F:\projects\NetcrakerHomeWork4\target\test-classes;F:\projects\NetcrakerHomeWork4\target\classes;C:\Users\Evgeny\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\Evgeny\.m2\repository\org\openjdk\jmh\jmh-core\1.33\jmh-core-1.33.jar;C:\Users\Evgeny\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\Users\Evgeny\.m2\repository\org\apache\commons\commons-math3\3.2\commons-math3-3.2.jar;C:\Users\Evgeny\.m2\repository\org\openjdk\jmh\jmh-generator-annprocess\1.33\jmh-generator-annprocess-1.33.jar ru.netcraker.task2.c.TestHashMap
+# JMH version: 1.33
+# VM version: JDK 11.0.14.1, OpenJDK 64-Bit Server VM, 11.0.14.1+10-LTS
+# VM invoker: C:\Users\Evgeny\.jdks\corretto-11.0.14.1\bin\java.exe
+# VM options: -Dvisualvm.id=93507165688600 -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\lib\idea_rt.jar=59134:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (default, use -Djmh.blackhole.autoDetect=true to auto-detect)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: ru.netcraker.task2.c.TestHashMap.sourceTestAdd
+
+# Run progress: 0,00% complete, ETA 00:05:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 26984,568 ns/op
+# Warmup Iteration   2: 25776,698 ns/op
+# Warmup Iteration   3: 26106,380 ns/op
+# Warmup Iteration   4: 26147,099 ns/op
+# Warmup Iteration   5: 24954,869 ns/op
+Iteration   1: 24960,695 ns/op
+Iteration   2: 24979,235 ns/op
+Iteration   3: 24960,171 ns/op
+Iteration   4: 24886,265 ns/op
+Iteration   5: 24965,372 ns/op
+
+
+Result "ru.netcraker.task2.c.TestHashMap.sourceTestAdd":
+  24950,348 ±(99.9%) 141,093 ns/op [Average]
+  (min, avg, max) = (24886,265, 24950,348, 24979,235), stdev = 36,641
+  CI (99.9%): [24809,254, 25091,441] (assumes normal distribution)
+
+
+# JMH version: 1.33
+# VM version: JDK 11.0.14.1, OpenJDK 64-Bit Server VM, 11.0.14.1+10-LTS
+# VM invoker: C:\Users\Evgeny\.jdks\corretto-11.0.14.1\bin\java.exe
+# VM options: -Dvisualvm.id=93507165688600 -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\lib\idea_rt.jar=59134:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (default, use -Djmh.blackhole.autoDetect=true to auto-detect)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: ru.netcraker.task2.c.TestHashMap.sourceTestContainsKey
+
+# Run progress: 33,33% complete, ETA 00:03:22
+# Fork: 1 of 1
+# Warmup Iteration   1: 41615,872 ns/op
+# Warmup Iteration   2: 40857,952 ns/op
+# Warmup Iteration   3: 40742,912 ns/op
+# Warmup Iteration   4: 40205,448 ns/op
+# Warmup Iteration   5: 41167,717 ns/op
+Iteration   1: 40812,160 ns/op
+Iteration   2: 40633,535 ns/op
+Iteration   3: 40676,942 ns/op
+Iteration   4: 40475,756 ns/op
+Iteration   5: 40687,236 ns/op
+
+
+Result "ru.netcraker.task2.c.TestHashMap.sourceTestContainsKey":
+  40657,126 ±(99.9%) 466,813 ns/op [Average]
+  (min, avg, max) = (40475,756, 40657,126, 40812,160), stdev = 121,230
+  CI (99.9%): [40190,313, 41123,938] (assumes normal distribution)
+
+
+# JMH version: 1.33
+# VM version: JDK 11.0.14.1, OpenJDK 64-Bit Server VM, 11.0.14.1+10-LTS
+# VM invoker: C:\Users\Evgeny\.jdks\corretto-11.0.14.1\bin\java.exe
+# VM options: -Dvisualvm.id=93507165688600 -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\lib\idea_rt.jar=59134:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (default, use -Djmh.blackhole.autoDetect=true to auto-detect)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: ru.netcraker.task2.c.TestHashMap.sourceTestDelete
+
+# Run progress: 66,67% complete, ETA 00:01:41
+# Fork: 1 of 1
+# Warmup Iteration   1: 40644,368 ns/op
+# Warmup Iteration   2: 40141,025 ns/op
+# Warmup Iteration   3: 39867,602 ns/op
+# Warmup Iteration   4: 39946,708 ns/op
+# Warmup Iteration   5: 41360,372 ns/op
+Iteration   1: 42725,458 ns/op
+Iteration   2: 41103,635 ns/op
+Iteration   3: 39786,886 ns/op
+Iteration   4: 39816,444 ns/op
+Iteration   5: 39837,614 ns/op
+
+
+Result "ru.netcraker.task2.c.TestHashMap.sourceTestDelete":
+  40654,008 ±(99.9%) 4951,103 ns/op [Average]
+  (min, avg, max) = (39786,886, 40654,008, 42725,458), stdev = 1285,786
+  CI (99.9%): [35702,904, 45605,111] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:05:03
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                          Mode  Cnt      Score      Error  Units
+TestHashMap.sourceTestAdd          avgt    5  24950,348 ±  141,093  ns/op
+TestHashMap.sourceTestContainsKey  avgt    5  40657,126 ±  466,813  ns/op
+TestHashMap.sourceTestDelete       avgt    5  40654,008 ± 4951,103  ns/op
+
+Process finished with exit code 0

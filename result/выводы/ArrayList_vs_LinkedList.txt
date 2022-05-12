@@ -1,0 +1,9 @@
+ArrayList: 
+-
+-
+-
+LinkedList:
+-
+-
+-
+Вывод:

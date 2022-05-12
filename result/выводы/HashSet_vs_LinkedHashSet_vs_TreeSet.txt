@@ -1,0 +1,13 @@
+HashSet: 
+-
+-
+-
+LinkedHashSet:
+-
+-
+-
+TreeSet:
+-
+-
+-
+Вывод:

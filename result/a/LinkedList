@@ -1,0 +1,112 @@
+C:\Users\Evgeny\.jdks\corretto-11.0.14.1\bin\java.exe -Dvisualvm.id=88589987110900 "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\lib\idea_rt.jar=49904:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\bin" -Dfile.encoding=UTF-8 -classpath F:\projects\NetcrakerHomeWork4\target\test-classes;F:\projects\NetcrakerHomeWork4\target\classes;C:\Users\Evgeny\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\Evgeny\.m2\repository\org\openjdk\jmh\jmh-core\1.33\jmh-core-1.33.jar;C:\Users\Evgeny\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\Users\Evgeny\.m2\repository\org\apache\commons\commons-math3\3.2\commons-math3-3.2.jar;C:\Users\Evgeny\.m2\repository\org\openjdk\jmh\jmh-generator-annprocess\1.33\jmh-generator-annprocess-1.33.jar ru.netcraker.TestLinkedList
+# JMH version: 1.33
+# VM version: JDK 11.0.14.1, OpenJDK 64-Bit Server VM, 11.0.14.1+10-LTS
+# VM invoker: C:\Users\Evgeny\.jdks\corretto-11.0.14.1\bin\java.exe
+# VM options: -Dvisualvm.id=88589987110900 -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\lib\idea_rt.jar=49904:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (default, use -Djmh.blackhole.autoDetect=true to auto-detect)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: ru.netcraker.TestLinkedList.sourceTestAdd
+
+# Run progress: 0,00% complete, ETA 00:10:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 12172,779 ns/op
+# Warmup Iteration   2: 11924,712 ns/op
+# Warmup Iteration   3: 9802,397 ns/op
+# Warmup Iteration   4: 9798,436 ns/op
+# Warmup Iteration   5: 10075,910 ns/op
+Iteration   1: 9924,328 ns/op
+Iteration   2: 9836,211 ns/op
+Iteration   3: 9828,009 ns/op
+Iteration   4: 9806,034 ns/op
+Iteration   5: 9802,133 ns/op
+
+
+Result "ru.netcraker.TestLinkedList.sourceTestAdd":
+  9839,343 ±(99.9%) 191,129 ns/op [Average]
+  (min, avg, max) = (9802,133, 9839,343, 9924,328), stdev = 49,636
+  CI (99.9%): [9648,214, 10030,472] (assumes normal distribution)
+
+
+# JMH version: 1.33
+# VM version: JDK 11.0.14.1, OpenJDK 64-Bit Server VM, 11.0.14.1+10-LTS
+# VM invoker: C:\Users\Evgeny\.jdks\corretto-11.0.14.1\bin\java.exe
+# VM options: -Dvisualvm.id=88589987110900 -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\lib\idea_rt.jar=49904:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (default, use -Djmh.blackhole.autoDetect=true to auto-detect)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: ru.netcraker.TestLinkedList.sourceTestDelete
+
+# Run progress: 33,33% complete, ETA 00:08:26
+# Fork: 1 of 1
+# Warmup Iteration   1: 546064,978 ns/op
+# Warmup Iteration   2: 517836,948 ns/op
+# Warmup Iteration   3: 521860,212 ns/op
+# Warmup Iteration   4: 513888,491 ns/op
+# Warmup Iteration   5: 516960,352 ns/op
+Iteration   1: 510200,438 ns/op
+Iteration   2: 514174,647 ns/op
+Iteration   3: 509100,555 ns/op
+Iteration   4: 508576,598 ns/op
+Iteration   5: 514271,783 ns/op
+
+
+Result "ru.netcraker.TestLinkedList.sourceTestDelete":
+  511264,804 ±(99.9%) 10642,070 ns/op [Average]
+  (min, avg, max) = (508576,598, 511264,804, 514271,783), stdev = 2763,712
+  CI (99.9%): [500622,734, 521906,874] (assumes normal distribution)
+
+
+# JMH version: 1.33
+# VM version: JDK 11.0.14.1, OpenJDK 64-Bit Server VM, 11.0.14.1+10-LTS
+# VM invoker: C:\Users\Evgeny\.jdks\corretto-11.0.14.1\bin\java.exe
+# VM options: -Dvisualvm.id=88589987110900 -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\lib\idea_rt.jar=49904:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (default, use -Djmh.blackhole.autoDetect=true to auto-detect)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: ru.netcraker.TestLinkedList.sourceTestUpdate
+
+# Run progress: 66,66% complete, ETA 00:06:44
+# Fork: 1 of 1
+# Warmup Iteration   1: 969291,746 ns/op
+# Warmup Iteration   2: 919528,574 ns/op
+# Warmup Iteration   3: 933110,199 ns/op
+# Warmup Iteration   4: 930682,645 ns/op
+# Warmup Iteration   5: 922910,766 ns/op
+Iteration   1: 921794,068 ns/op
+Iteration   2: 969425,295 ns/op
+Iteration   3: 926156,663 ns/op
+Iteration   4: 933705,343 ns/op
+Iteration   5: 934474,229 ns/op
+
+
+Result "ru.netcraker.TestLinkedList.sourceTestUpdate":
+  937111,120 ±(99.9%) 72484,489 ns/op [Average]
+  (min, avg, max) = (921794,068, 937111,120, 969425,295), stdev = 18823,992
+  CI (99.9%): [864626,631, 1009595,609] (assumes normal distribution)
+
+
+# Run progress: 100% complete, ETA 00:00:00
+# Run complete. Total time: 00:05:06
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                        Mode  Cnt       Score       Error  Units
+TestLinkedList.sourceTestAdd     avgt    5    9839,343 ±   191,129  ns/op
+TestLinkedList.sourceTestDelete  avgt    5  511264,804 ± 10642,070  ns/op
+TestLinkedList.sourceTestUpdate  avgt    5  937111,120 ± 72484,489  ns/op
+
+Process finished with exit code 0

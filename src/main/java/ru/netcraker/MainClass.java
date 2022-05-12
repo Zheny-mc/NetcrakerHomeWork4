@@ -5,7 +5,7 @@ import ru.netcraker.my_linkedList.MylinkeList;
 
 import java.util.Iterator;
 
-public class Launch {
+public class MainClass {
 
     public static void main(String[] args){
         System.out.println("------initial-------");
